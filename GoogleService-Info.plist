@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAdgFokwgYjukcFmhQqN6iiw2ZxN9vYiJg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>492091109771</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.expressima.yma.app</string>
+	<key>PROJECT_ID</key>
+	<string>yma-zeroum</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yma-zeroum.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:492091109771:ios:6d1c41da222ca6f3e2ff8e</string>
+</dict>
+</plist>
