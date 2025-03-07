@@ -1,52 +1,56 @@
 {
-  "cli": {
-    "version": ">= 12.6.1",
-    "appVersionSource": "remote"
-  },
-  "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
-      }
-    },
-    "development-simulator": {
-      "extends": "development",
-      "ios": {
-        "simulator": true
-      }
-    },
-    "preview": {
-      "distribution": "internal",
-      "channel": "preview",
-      "android": {
-        "buildType": "apk",
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
-      }
-    },
-    "production": {
-      "channel": "production",
-      "autoIncrement": true,
-      "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
-      }
-    }
-  },
-  "submit": {
-    "production": {
-      "ios": {
-        "appleTeamId": "29W3HKQYZ6"
-      }
-    }
-  }
+	"cli": {
+		"version": ">= 12.6.1",
+		"appVersionSource": "remote"
+	},
+	"build": {
+		"development": {
+			"developmentClient": true,
+			"distribution": "internal",
+			"preview": {
+				"distribution": "internal"
+			},
+			"production": {},
+			"android": {
+				"image": "latest"
+			},
+			"ios": {
+				"image": "latest"
+			}
+		},
+		"development-simulator": {
+			"extends": "development",
+			"ios": {
+				"simulator": true
+			}
+		},
+		"preview": {
+			"distribution": "internal",
+			"channel": "preview",
+			"android": {
+				"buildType": "apk",
+				"image": "latest"
+			},
+			"ios": {
+				"image": "latest"
+			}
+		},
+		"production": {
+			"channel": "production",
+			"autoIncrement": true,
+			"android": {
+				"image": "latest"
+			},
+			"ios": {
+				"image": "latest"
+			}
+		}
+	},
+	"submit": {
+		"production": {
+			"ios": {
+				"appleTeamId": "29W3HKQYZ6"
+			}
+		}
+	}
 }
